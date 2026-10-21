@@ -90,14 +90,15 @@ section.imagem > p {
 section#img01 {
     background-image: url(imagens/background001.jpg);
     background-position: center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+   
 
 }
 
 section#img02 {
     background-image: url(imagens/background002.jpg);
     background-size: cover;
+     background-position: center center;
 
 }
 
@@ -109,7 +110,7 @@ footer{
 footer p {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2vw;
+    font-size: 1.75vw;
     text-align: center;
     padding: 10px;
     
