@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: 'Sriracha Regular';
+    src: url(fonte/sriracha-latin-400-normal.ttf); format:('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+header {
+     background-color: black;
+     padding: 50px;
+     
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+h1 {
+    color: white;
+    font-variant: small-caps; /*ESSA TECNICA FAZ COM QUE AS PRIMEIRAS LETRAS DA FRASE FIQUEM MAIORES*/
+    font-family: passion one;
+    text-align: center;
+    font-size: 7.5vw;
+    margin: 10px;
+}
+
+
+h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 25px;
+    font-size: 1em;
+    
+}
+
+h2 a {
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(225, 225, 225);
+}
+
+section {
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: 'Sriracha Regular';
+    
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(46, 45, 45, 0.484);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.467);
+    background-attachment: fixed;
+}
+
+section > p {
+    padding-bottom: 1.75em;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.422);
+    display:inline-block;
+    padding: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.467);
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+
+}
+
+footer{
+    background-color: black;
+    font-size: 1em;
+   
+}
+footer p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
